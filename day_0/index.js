@@ -5,7 +5,7 @@ var a="abc";
 console.log(type)
 */
 
-//hoisting
+/*hoisting
 console.log(a);
 var a;
 a=2;
@@ -15,3 +15,8 @@ a=2;
     console.log(a);
 }
 console.log(a);
+*/
+greet();
+function greet(){
+    console.log("Hello");
+}
